@@ -25,6 +25,10 @@ const pool = new Pool({
 app.get('/api/test', (req, res) => {
     res.send('Hello, World!');
   });
+
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
+  });
   
 
 
